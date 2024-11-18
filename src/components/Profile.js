@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Profile = ({ student }) => {
     return (
         <div>
