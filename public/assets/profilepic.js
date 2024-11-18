@@ -1,4 +1,4 @@
-export const profilePics = [
+/* export const profilePics = [
     { fileName: "1.jpg" },
     { fileName: "2.jpg" },
     { fileName: "3.jpg" },
@@ -18,3 +18,4 @@ export const profilePics = [
     { fileName: "17.jpg" },
     { fileName: "18.jpg" }
 ];
+ */
