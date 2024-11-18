@@ -1,0 +1,34 @@
+.outerDiv {
+    background-color: #49bbf3;
+    align-content: center;
+    height: fit-content;
+    color: #fff;
+    margin: 0px auto;
+    padding: 5px;
+    position: absolute;
+}
+
+.leftDiv {
+    background-color: #efefef;
+    color: #000;
+    width: 48%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rightDiv {
+    background-color: #efefef;
+    color: #000;
+    width: 48%;
+    float: right;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile {
+    width: 75%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 50%;
+}
