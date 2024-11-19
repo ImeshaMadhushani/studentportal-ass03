@@ -3,6 +3,44 @@
   
 }
 
+.profilecard{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    border: 1px solid #d1d1d1;
+}
+
+.profile{
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+}
+
+
+.prodetails{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.details{
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      padding: 8px;
+      font-size: 14px;
+      background-color: #f9f9f9;
+      line-height: 1.5;
+      color: #333;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
 
 
 
