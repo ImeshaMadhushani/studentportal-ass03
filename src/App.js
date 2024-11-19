@@ -4,6 +4,7 @@ import FontSizeSelector from "./components/FontSizeSelector";
 import Table from "./components/Table";
 import Profile from "./components/Profile";
 import './compo.css';
+import './App.css';
 const App = () => {
   const [students] = useState(StudentsDb);
   const [selectedStudent, setSelectedStudent] = useState(students[0]);
@@ -14,15 +15,22 @@ const App = () => {
   };
 
   return (
-    <div style={{ display: "flex", fontSize }}>
-      <div style={{ flex: 1 }}>
-        <FontSizeSelector fontSize={fontSize} setFontSize={setFontSize} />
-        <Table students={students} selectStudent={selectStudent} />
-      </div>
-      <div style={{ flex: 1, marginLeft: "20px" }}>
+    <>
+      <h2 className="topic">Students Information Portal</h2>       <hr />
+      <div style={{ display: "flex", fontSize }}>
+        <div style={{ flex: 1 }}>
+          <div>
+          <FontSizeSelector fontSize={fontSize} setFontSize={setFontSize} /> <hr />
+          <br/>
+            <Table students={students} selectStudent={selectStudent} />
+          </div>
+        </div>
+      
+      <div style={{ flex: 1, marginLeft: "80px" }}>
         <Profile student={selectedStudent} />
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 

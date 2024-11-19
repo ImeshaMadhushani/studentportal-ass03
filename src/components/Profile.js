@@ -3,8 +3,7 @@ import React from "react";
 
 const Profile = ({ student }) => {
     return (
-        <div>
-            <h2>Profile</h2>
+        <div className="profilecard">
             <img
                 className="profile"
 

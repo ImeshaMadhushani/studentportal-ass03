@@ -18,7 +18,7 @@ const Table = ({ students, selectStudent }) => {
                         <td>{student.firstName}</td>
                         <td>{student.lastName}</td>
                         <td>{student.course}</td>
-                        <td>{student.country}</td>
+                        <td>{student.address.country}</td>
                         <td>
                             <button onClick={() => selectStudent(index)}>View Profile</button>
                         </td>
